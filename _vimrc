@@ -43,6 +43,8 @@ set noerrorbells visualbell t_vb=
 autocmd GUIEnter * set visualbell t_vb=
 
 set noswapfile
+set nobackup
+set nowritebackup
 
 set term=xterm
 set t_Co=256
